@@ -1,0 +1,405 @@
+/*home page and template css*/
+body
+{
+background-color:teal;
+}
+p
+{
+padding-left:10px;
+}
+#banner
+{
+text-align:center;
+}
+
+.selector
+{
+font-family:helvetica;
+width:80%;
+max-width:1000px;
+min-width:650px;
+height:50px;
+background-color:#6BA497;
+margin:0 auto;
+text-align:center;
+border: 1px solid #000;
+}
+.topbuttons
+{
+float:left;
+display: block;
+height: 20px;
+width: 25%;
+text-align:center;
+font-size:150%;
+}
+.heading
+{
+font-family:helvetica;
+text-align:center;
+}
+
+#wrapper
+{
+margin:0 auto;
+width:80%;
+max-width:1000px;
+min-width:650px;
+border: 1px solid #000;
+height:1100px;
+background-color:#1D3F6C;
+}
+
+#Intro
+{
+width:200px;
+height:150px;
+background-color:#E99C5D;
+float:left;
+margin: 50px;
+}
+
+#ImageOne
+{
+width:200px;
+height:200px;
+background-image:url('Images/yez.jpg');
+float:left;
+margin: 50px;
+}
+
+#ImageTwo
+{
+width:200px;
+height:200px;
+background-image:url('Images/yez 2.jpg');
+float:left;
+margin: 50px;
+
+}
+
+#Calander
+{
+width:240px;
+height:217px;
+background-image:url('Images/calender.png');
+float:left;
+margin: 50px
+}
+
+#IntroTwo
+{
+width:200px;
+height:150px;
+background-color:#E99C5D;
+float:left;
+margin:50px;
+}
+
+#Gif
+{
+width:200px;
+height:200px;
+background-image:url('Images/y.gif');
+float:left;
+margin:50px;
+}
+@media only screen and (max-width: 1000px){
+#wrapper
+{
+height:1400px;	
+}	
+}
+
+
+
+#footer
+{
+border-top: 1px solid #426A5E;
+margin-bottom:0cm;
+
+}
+/*contact us page*/
+	#wrapper4
+	{
+	margin:0 auto;
+	width:80%;
+	max-width:1000px;
+	min-width:650px;
+	height:400px;
+	
+	}
+
+	#Links
+	{
+	width:40%;
+	height:200px;
+	float:left;
+	background-color: #385884;
+	float:left;
+	font-family:helvetica;
+	}
+
+	#Information
+	{
+	Width:60%;
+	height:200px;
+	background-color:#E89C5D;
+	float:right;
+	font-family:helvetica;
+	}
+	
+	#form
+	{
+	width:30%;
+	height:150px;
+	background-color:#A2700B;
+	float:left;
+	font-family:helvetica;
+	}
+	
+	#InformationTwo
+	{
+	width:70%;
+	height:150px;
+	background-color:#E8BA5D;
+	float:right;
+	font-family:helvetica;
+	}
+		@media only screen and (max-width: 1000px){
+	#Links{width:100%;
+	height:200px;
+	float:left;
+	background-color: #385884;
+	font-family:helvetica;
+	}
+	#form{width:100%;
+	height:150px;
+	background-color:#A2700B;
+	font-family:helvetica;
+	}
+	#InformationTwo{width:100%;
+	height:150px;
+	background-color:#E8BA5D;
+	font-family:helvetica;
+	}
+	#Information{width:100%;
+	height:200px;
+	background-color:#E89C5D;
+	font-family:helvetica;
+	}
+	}
+	//*
+	#picture
+	{
+	width:20%;
+	height:200px;
+	background-image:url('Images/Nyan.jpg');
+	float:left;
+	}
+	*//
+	/*archives page*/
+		#wrapper2
+		{
+		width:80%;
+		max-width:1000px;
+		min-width:650px;
+		max-height:100px;	
+		background:#0000CC;
+		margin: 0 auto;		
+		}
+		#menu
+		{
+		float:left;
+		width:20%;
+		min-width:100px;
+		height:1000px;
+		background:#9899C2;
+		font-family:helvetica;
+		}
+		#main
+		{
+		float:right;
+		width:80%;
+		height:1000px;
+		background:#1D3F6C;		
+		}
+		@media only screen and (max-width: 1000px){
+#menu{height:1300px;}	
+#main{height:1300px;}
+										}
+		#selector1
+		{
+		width:100%;
+	
+		height: 21px;
+		}
+		.selector2
+		{
+		float:left;
+		display: block;
+		height: 20px;
+		width: 25%;
+		background:#388B8B;
+		text-align:center;
+		font-family:helvetica;
+		}
+		.video1
+		{
+		float:left;
+		width:200px;
+		height:200px;
+		background:#E89C5D;
+		position:relative;
+		top:40px;
+		left:7%;
+		margin-bottom:40px;
+		margin-right:40px;
+		font-family:helvetica;	
+		background-image:url('Images/video.png');
+		
+		}
+		.video2
+		{
+		float:left;
+		width:200px;
+		height:200px;		
+		background:#E89C5D;
+		position:relative;
+		top:40px;
+		left:7%;
+		margin-bottom:40px;
+		margin-right:40px;
+		font-family:helvetica;	
+		background-image:url('Images/video.png');	
+	
+		}			
+			/*reviews page */		
+
+			#wrapper3
+			{
+			width:80%;
+			max-width:1000px;
+			min-width:650px;
+			max-height:1600px;			
+			background:#0000CC;
+			margin: 0 auto;
+			}
+			#menu2
+			{
+			float:left;
+			width:20%;
+			min-width:100px;
+			height:1600px;
+			background:#9899C2;
+			font-family:helvetica;
+			}
+			#main2
+			{
+			float:right;
+			width:80%;
+			height:1600px;
+			background:#1D3F6C;
+			
+			}
+			.article
+			{
+			width:500px;
+			height:250px;
+			position:relative;
+			top:40px;
+			margin: 0 auto;
+			margin-bottom:40px;
+			font-family:helvetica;
+			background-color:#E89C5D;
+			text-align:center;
+			padding-top:20px;
+			}
+			
+		
+/*content css for archives*/
+.blog1
+{
+float:left;
+width:200px;
+height:150px;
+position:relative;
+top:40px;
+left:7%;
+margin-bottom:40px;
+margin-right:40px;
+font-family:helvetica;
+background-color:#E89C5D;
+	text-align:center;
+}
+.article1
+{
+float:left;
+width:200px;
+height:150px;
+background-color:#E89C5D;
+position:relative;
+top:40px;
+left:7%;
+margin-bottom:40px;
+margin-right:40px;
+font-family:helvetica;
+	text-align:center;
+}
+.article2
+{
+float:left;
+width:200px;
+height:150px;
+background-color:#E89C5D;
+position:relative;
+top:40px;
+left:7%;
+margin-bottom:40px;
+margin-right:40px;
+font-family:helvetica;
+	text-align:center;
+}
+
+.blog2
+{
+float:left;
+width:200px;
+height:150px;
+background-color:#E89C5D;
+position:relative;
+top:40px;
+left:7%;
+margin-bottom:40px;
+margin-right:40px;
+font-family:helvetica;
+	text-align:center;
+}
+.news1
+{
+float:left;
+width:200px;
+height:150px;
+background-color:#E89C5D;
+position:relative;
+top:40px;
+left:7%;
+margin-bottom:40px;
+margin-right:40px;
+font-family:helvetica;
+	text-align:center;
+}
+.news2
+{
+float:left;
+width:200px;
+height:150px;
+background-color:#E89C5D;
+position:relative;
+top:40px;
+left:7%;
+margin-bottom:40px;
+margin-right:40px;
+font-family:helvetica;
+	text-align:center;
+}

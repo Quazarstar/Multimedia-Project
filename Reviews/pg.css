@@ -1,0 +1,75 @@
+	body
+{
+background-color:teal;
+}
+p
+{
+padding-left:10px;
+}
+#banner
+{
+text-align:center;
+}
+
+.selector
+{
+font-family:helvetica;
+width:80%;
+max-width:1000px;
+min-width:650px;
+height:50px;
+background-color:#6BA497;
+margin:0 auto;
+text-align:center;
+border: 1px solid #000;
+}
+.topbuttons
+{
+float:left;
+display: block;
+height: 20px;
+width: 25%;
+text-align:center;
+font-size:150%;
+}
+.heading
+{
+font-family:helvetica;
+text-align:center;
+}
+		
+			#pgwrapper
+			{
+			width:80%;
+			max-width:1000px;
+			min-width:650px;
+			height:1400px;			
+			background:#E89C5D;
+			margin: 0 auto;
+			}
+			#top
+			{
+			width:100%;
+			height:50px;
+			background:#9899C2;
+			padding-bottom:10px;
+			}
+			#topheading{
+			text-align:center;			
+			font-family:helvetica;
+			margin: 0 auto;
+			font-size:150%;
+		
+			}
+			#return{
+			font-family:helvetica;
+			float:left;
+			}
+			#mainbody
+			{
+			font-family:helvetica;
+			height:1450px;
+			background:#E89C5D;
+			padding:10px;
+			}
+		
